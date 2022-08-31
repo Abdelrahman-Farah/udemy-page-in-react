@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './db.json';
+
+import CourseCard from './components/CourseCard';
 
 function App() {
+  let courses = data['courses'].map((course) => {
+    return <CourseCard course={course}></CourseCard>
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>{data['header']}</h2>
+      <p>{data['description']}</p>
+      <button className='explore_button'>Explore Python</button>
+
+      <div className='course-container'>
+        {courses}
+      </div>
     </div>
   );
 }

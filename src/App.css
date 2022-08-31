@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
+  margin: 60px;
+  padding: 5px 2em;
+  border: 3px solid #d1d7dc;
+  font-family: 'Cairo', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin-top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.explore_button {
+  height: 55px;
+  font-size: 1.2em;
+  font-weight:600;
+  margin-bottom: 2em;
+  background-color: #fff;
+  color: #000;
+}
+
+.explore_button:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.course-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  /* justify-self: start; */
 }
 
-.App-link {
-  color: #61dafb;
+
+.course-card {
+  margin: 0 auto 20px auto;
+  max-width: 16em;
+  padding: 15px;
+  border: 2px solid #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  width: 240px;
+  height: 135px;
+  border: 1px solid #d1d7dc;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 5px;
+  color: #6a6f73;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.price {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
