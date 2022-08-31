@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## how to run the react app?
+1- Download the project.
+
+2- open a terminal in the project directory.
+
+3- write `npm install` in the terminal to install react library (node_modules).
+
+4- write `npm start`   in the terminal to start the live server.
+
 ## Available Scripts
 
 In the project directory, you can run:
