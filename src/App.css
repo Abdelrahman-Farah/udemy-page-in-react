@@ -66,21 +66,17 @@ h4 {
 
 @media only screen and (max-width: 420px)
 {
-img {
-  width: 200px;
-  height: 125px;
-  border: 1px solid #d1d7dc;
-}
-.course-card {
-  margin-bottom: 15px;
-  max-width: 16em;
-  padding: 0px;
-  /* border: 2px solid #000; */
-}
-.App {
-  margin: 0em;
-  padding: 0 2em;
-  border: 3px solid #d1d7dc;
-  font-family: 'Cairo', sans-serif;
-}
+  img {
+    width: 200px;
+    height: 125px;
+  }
+  .course-card {
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+
+  .App {
+    margin: 0em;
+    padding: 0 2em;
+  }
 }
