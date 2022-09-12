@@ -14,7 +14,7 @@ function SearchBar() {
   const applySearch = (event) => {
     event.preventDefault();
     globalSearch.setGlobalSearchText((oldVal) => searchValue);
-    navigate("/");
+    navigate("/udemy-page-in-react");
   }
 
   const searchBoxUpdated = (event) => {
