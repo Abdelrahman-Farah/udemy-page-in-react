@@ -1,38 +1,149 @@
+* {
+  font-size: 17px;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.small-icon {
+  width: 12px;
+  height: 12px;
+}
+.mid-icon {
+  width: 18px;
+  height: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* todo */
+.collapsing {
+  /* animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+  /* transition: 1s; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.purple {
+  color: #a435f0;
+}
+.purple-on-hover:hover {
+  color: #a435f0;
+  /* filter: invert(45%) sepia(42%) saturate(5827%) hue-rotate(236deg) brightness(91%) contrast(89%); */
+}
+
+.pointer-on-hover:hover {
+  cursor: pointer;
+}
+
+.spinner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  min-height: 460px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  filter: invert(45%) sepia(42%) saturate(5827%) hue-rotate(236deg) brightness(91%) contrast(89%);
+}
+.spinner > * {
+  height: 6rem;
+  width: 6rem;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* TODO (move those selectors.) */
+footer {
+  color: #fff;
+  background-color: #1c1d1f;
+}
+
+footer > * {
+  padding: 0 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.udemy-business {
+  font-size: 22px;
+  font-weight: bold;
+  color: #cec0fc;
+}
+.udemy-business:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sponsers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-mid {
+  flex-direction: row-reverse;
+}
+
+.links-container{
+  min-width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.link-item {
+  font-size: 16px;
+}
+.link-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.inverted-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.language-button {
+  font-size: 25px;
+  color: #fff;
+  padding: 5px 25px;
+  background: none;
+  border: 2px solid #fff;
+}
+
+.language-button:hover {
+  cursor: pointer;
+  background-color: #2e2f31;
+}
+@media only screen and (max-width: 980px) {
+  .sponsers {
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+@media only screen and (max-width: 840px) {
+  .links-container {
+    min-width: 75%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .sponsers{
+    display: none;
+  }
+  .footer-mid {
+    flex-direction: column;
+  }
+  .links-container {
+    flex-direction: column;
+  }
+  footer > * {
+    padding: 0;
+  }
+  .footer-end {
+    padding: 0 25px;
   }
 }
