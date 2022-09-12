@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/udemy-page-in-react/static/css/main.648615ab.css",
+    "main.js": "/udemy-page-in-react/static/js/main.5c93dea2.js",
+    "static/js/787.a22c23ee.chunk.js": "/udemy-page-in-react/static/js/787.a22c23ee.chunk.js",
+    "static/media/header_watch.jpg": "/udemy-page-in-react/static/media/header_watch.7342807558f95055934e.jpg",
+    "static/media/logo-udemy-inverted.svg": "/udemy-page-in-react/static/media/logo-udemy-inverted.bc61c6989dd94540b76689ec30e1b7f5.svg",
+    "static/media/logo-udemy.svg": "/udemy-page-in-react/static/media/logo-udemy.ac64b9eb547dc3795f53173b290203d9.svg",
+    "static/media/language.svg": "/udemy-page-in-react/static/media/language.56beb1c290b29a71f960c2a5cfa7f2b8.svg",
+    "static/media/language white.svg": "/udemy-page-in-react/static/media/language white.9a8d50502c8537e34e11d06b7401df66.svg",
+    "index.html": "/udemy-page-in-react/index.html",
+    "static/media/lifetime.svg": "/udemy-page-in-react/static/media/lifetime.6e9ffecd6c3c7e78b53e880d0587b224.svg",
+    "static/media/captions.svg": "/udemy-page-in-react/static/media/captions.a61b86fdd60dfaf0d2a9c8e62149b52c.svg",
+    "static/media/cart_icon.svg": "/udemy-page-in-react/static/media/cart_icon.7758ea6e306b8af486f01a9bf7a02362.svg",
+    "static/media/trophy.svg": "/udemy-page-in-react/static/media/trophy.e1fdb19a3eb05e8697e625040ee0cadc.svg",
+    "static/media/alarm.svg": "/udemy-page-in-react/static/media/alarm.3ecf420b2107f600bdb15071a8ed1c8e.svg",
+    "static/media/dislike.svg": "/udemy-page-in-react/static/media/dislike.29e0dc95b143eed1fd155c21e299f230.svg",
+    "static/media/like.svg": "/udemy-page-in-react/static/media/like.87e1aa9b5d828b41393f93201c783fcc.svg",
+    "static/media/dislike-filled.svg": "/udemy-page-in-react/static/media/dislike-filled.e97c2ed7e50ebe31903d9ffdf42fb3b9.svg",
+    "static/media/like-filled.svg": "/udemy-page-in-react/static/media/like-filled.7dcc182ad46e128d27a08c8286cf5073.svg",
+    "static/media/new.svg": "/udemy-page-in-react/static/media/new.7d43872d814d1bfe9360cc7ae56fe7dc.svg",
+    "static/media/downloadable.svg": "/udemy-page-in-react/static/media/downloadable.db6f814f02175fe29c8bc2faf8de3c55.svg",
+    "static/media/star.svg": "/udemy-page-in-react/static/media/star.fdb79ecada90c4d59cc61e3316160677.svg",
+    "static/media/filled-star.svg": "/udemy-page-in-react/static/media/filled-star.ae1bed9f9aeb5dd331624c7f48d47f13.svg",
+    "static/media/video.svg": "/udemy-page-in-react/static/media/video.9c34e54049f9d0d8834f48b232656812.svg",
+    "static/media/mobile.svg": "/udemy-page-in-react/static/media/mobile.4a62dcee38b4b8ee9ac81978108c1a3b.svg",
+    "static/media/article.svg": "/udemy-page-in-react/static/media/article.15cd7e8412af9dfd682b2a2ca7fa2a7d.svg",
+    "static/media/tick.svg": "/udemy-page-in-react/static/media/tick.0894c95e3b8f133d7437544c03e2ae61.svg",
+    "static/media/play.svg": "/udemy-page-in-react/static/media/play.dc4aeea58671d807b8db45d43e20bfa1.svg",
+    "static/media/expand.svg": "/udemy-page-in-react/static/media/expand.07bc25c2cae2dce2f4c0120cb1766350.svg",
+    "main.648615ab.css.map": "/udemy-page-in-react/static/css/main.648615ab.css.map",
+    "main.5c93dea2.js.map": "/udemy-page-in-react/static/js/main.5c93dea2.js.map",
+    "787.a22c23ee.chunk.js.map": "/udemy-page-in-react/static/js/787.a22c23ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.648615ab.css",
+    "static/js/main.5c93dea2.js"
+  ]
+}
