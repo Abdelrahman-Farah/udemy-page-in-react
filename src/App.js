@@ -7,6 +7,7 @@ import { SearchProvider } from './contexts/SearchContext'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Footer from './components/Footer';
+import ScrollToTop from './ScrollToTop'
 // import './modules/styles.css';
 
 function App() {
@@ -14,13 +15,16 @@ function App() {
 
   return (
     <div className="App">
-      <SearchProvider value={{globalSearchText: globalSearchText, setGlobalSearchText}}>
+      <SearchProvider value={{ globalSearchText: globalSearchText, setGlobalSearchText }}>
         <NavBar></NavBar>
 
-        <Routes>
-          <Route path="/udemy-page-in-react" element={<HomePage />} />
-          <Route path="/udemy-page-in-react/course/:courseId" element={<CoursePage />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/udemy-page-in-react" element={<HomePage />} />
+            <Route path="/udemy-page-in-react/course/:courseId" element={<CoursePage />} />
+          </Routes>
+        </ScrollToTop>
+
       </SearchProvider>
 
       <Footer></Footer>

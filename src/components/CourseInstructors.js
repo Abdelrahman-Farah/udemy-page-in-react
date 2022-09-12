@@ -21,7 +21,7 @@ function Instructor(props) {
         }
     }
     return (
-        <>
+        <div className="mb-4">
             <h4 className="instructor-name">{props.info['name']}</h4>
             <h6 className="text-secondary">{props.info['job']}</h6>
             <div className="d-flex mb-3">
@@ -34,7 +34,7 @@ function Instructor(props) {
                 </div>
             </div>
             {renderStructure()}
-        </>
+        </div>
     )
 }
 
