@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/udemy-page-in-react/static/css/main.648615ab.css",
-    "main.js": "/udemy-page-in-react/static/js/main.6c40f47b.js",
+    "main.js": "/udemy-page-in-react/static/js/main.22ca782b.js",
     "static/js/787.a22c23ee.chunk.js": "/udemy-page-in-react/static/js/787.a22c23ee.chunk.js",
     "static/media/header_watch.jpg": "/udemy-page-in-react/static/media/header_watch.7342807558f95055934e.jpg",
     "static/media/logo-udemy-inverted.svg": "/udemy-page-in-react/static/media/logo-udemy-inverted.bc61c6989dd94540b76689ec30e1b7f5.svg",
@@ -29,11 +29,11 @@
     "static/media/play.svg": "/udemy-page-in-react/static/media/play.dc4aeea58671d807b8db45d43e20bfa1.svg",
     "static/media/expand.svg": "/udemy-page-in-react/static/media/expand.07bc25c2cae2dce2f4c0120cb1766350.svg",
     "main.648615ab.css.map": "/udemy-page-in-react/static/css/main.648615ab.css.map",
-    "main.6c40f47b.js.map": "/udemy-page-in-react/static/js/main.6c40f47b.js.map",
+    "main.22ca782b.js.map": "/udemy-page-in-react/static/js/main.22ca782b.js.map",
     "787.a22c23ee.chunk.js.map": "/udemy-page-in-react/static/js/787.a22c23ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.648615ab.css",
-    "static/js/main.6c40f47b.js"
+    "static/js/main.22ca782b.js"
   ]
 }
