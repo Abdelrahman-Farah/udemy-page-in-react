@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </SearchProvider>
 
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
