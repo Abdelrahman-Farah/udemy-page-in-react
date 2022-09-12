@@ -34,7 +34,7 @@ function Footer() {
       </div>
 
       <div className="footer-end mt-5">
-        <Link to="/"><img src={invertedLogo} className="inverted-logo pointer-on-hover" alt="logo" /></Link>
+        <Link to="/udemy-page-in-react"><img src={invertedLogo} className="inverted-logo pointer-on-hover" alt="logo" /></Link>
         <span>© 2022 Udemy, Inc.</span>
       </div>
 

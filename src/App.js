@@ -18,8 +18,8 @@ function App() {
         <NavBar></NavBar>
 
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/course/:courseId" element={<CoursePage />} />
+          <Route path="/udemy-page-in-react" element={<HomePage />} />
+          <Route path="/udemy-page-in-react/course/:courseId" element={<CoursePage />} />
         </Routes>
       </SearchProvider>
 

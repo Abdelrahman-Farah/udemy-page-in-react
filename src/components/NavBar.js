@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <nav>
       <img class="menu" src={menu} alt="menu"></img>
-      <Link to="/"><img src={logo} className="logo pointer-on-hover" alt="logo" /></Link>
+      <Link to="/udemy-page-in-react"><img src={logo} className="logo pointer-on-hover" alt="logo" /></Link>
 
       <div className="nav-drop-down purple-on-hover pointer-on-hover">Categories</div>
 

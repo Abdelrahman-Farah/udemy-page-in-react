@@ -42,7 +42,7 @@ function HomePage() {
     const filteredCourses = Object.values(trackInfo['courses']).filter(containsSearch);
     const coursesView = filteredCourses.map((course) => {
       return (
-        <Link to={`/course/${course.id}`}>
+        <Link to={`/udemy-page-in-react/course/${course.id}`}>
           <CourseCard course={course}></CourseCard>
         </Link>
       )
